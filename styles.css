@@ -572,6 +572,10 @@ video {
   top: 70px;
 }
 
+.right-0{
+  right: 0px;
+}
+
 .flex{
   display: flex;
 }
@@ -580,12 +584,12 @@ video {
   display: none;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-screen{
   width: 100vw;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .flex-col{
@@ -618,10 +622,6 @@ video {
 
 .gap-5{
   gap: 1.25rem;
-}
-
-.overflow-x-hidden{
-  overflow-x: hidden;
 }
 
 .text-nowrap{
@@ -695,6 +695,12 @@ video {
   --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .duration-300{
